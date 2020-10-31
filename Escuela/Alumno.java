@@ -9,7 +9,7 @@ public class Alumno extends Persona {
     System.out.println("Estoy estudiando...");
   }
 
-  // Getter y Setters
+  // Set y Get: encapsulación de la Matricula
   public void setMatricula(int nuevaMatricula) {
     this.matricula = nuevaMatricula;
   }
