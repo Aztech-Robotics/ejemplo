@@ -14,6 +14,14 @@ public class Alumno extends Persona {
     this.matricula = nuevaMatricula;
   }
 
+  public void setgrupo(int newgroup) {
+    this.grupo = newgroup;
+  }
+
+  public int getgrupo(){
+    return this.grupo;
+  }
+
   public int getMatricula() {
     return this.matricula;
   }

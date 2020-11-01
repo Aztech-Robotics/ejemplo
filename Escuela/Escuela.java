@@ -8,6 +8,12 @@ public class Escuela {
 
     alumno.caminar();
 
+    alumno.saltar();
+
+    alumno.setgrupo(2102);
+
     System.out.println(alumno.getMatricula());
+
+    System.out.println(alumno.getgrupo());
   }
 }
