@@ -9,5 +9,9 @@ public class Escuela {
     alumno.caminar();
 
     System.out.println(alumno.getMatricula());
+
+    alumno.setPromedio(10);
+
+    System.out.println(alumno.getPromedio());
   }
 }
