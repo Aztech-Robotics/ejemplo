@@ -3,7 +3,7 @@ package Escuela;
 public class Alumno extends Persona {
   private int matricula;
   public double promedio;
-  private public int grupo;
+  private int grupo;
 
   public void estudiar() {
     System.out.println("Estoy estudiando...");
