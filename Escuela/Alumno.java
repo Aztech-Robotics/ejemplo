@@ -3,7 +3,7 @@ package Escuela;
 public class Alumno extends Persona {
   private int matricula;
   private double promedio;
-  public int grupo;
+  private int grupo;
 
   public void estudiar() {
     System.out.println("Estoy estudiando...");
@@ -14,10 +14,18 @@ public class Alumno extends Persona {
     this.matricula = nuevaMatricula;
   }
 
+  public void setGrupo(int newgroup) {
+    this.grupo = newgroup;
+  }
+
+  public int getGrupo() {
+    return this.grupo;
+  }
+
   public int getMatricula() {
     return this.matricula;
   }
-  
+
   // Set y Get: encapsulación del promedio
   public void setPromedio(double nuevoPromedio) {
     this.promedio = nuevoPromedio;

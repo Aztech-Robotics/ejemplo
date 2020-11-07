@@ -11,4 +11,9 @@ public class Persona {
   public void caminar() {
     System.out.println("Estoy caminando");
   }
+
+  public void saltar() {
+    System.out.println("Estoy saltando");
+  }
+
 }

@@ -8,10 +8,13 @@ public class Escuela {
 
     alumno.caminar();
 
+    alumno.saltar();
+
+    alumno.setGrupo(2102);
+
     System.out.println(alumno.getMatricula());
-
     alumno.setPromedio(10);
-
     System.out.println(alumno.getPromedio());
+    System.out.println(alumno.getGrupo());
   }
 }
