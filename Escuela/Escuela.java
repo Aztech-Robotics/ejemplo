@@ -10,10 +10,10 @@ public class Escuela {
 
     alumno.saltar();
 
-    alumno.setgrupo(2102);
+    alumno.setGrupo(2102);
 
     System.out.println(alumno.getMatricula());
 
-    System.out.println(alumno.getgrupo());
+    System.out.println(alumno.getGrupo());
   }
 }
